@@ -1,0 +1,3 @@
+#!/bin/bash
+echo "obase=bestchol; ibase=water; $(echo ${WATER//[^0-9]/+}0 | bc)+$(echo ${STIR//[^0-9]/+}0 | bc)" | bc
+
