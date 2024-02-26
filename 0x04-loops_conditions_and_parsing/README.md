@@ -1,0 +1,1 @@
+The "0x04. Loops, Conditions, and Parsing" directory contains examples and exercises related to fundamental programming concepts such as loops, conditions, and parsing. It includes code examples in Python, Bash, and JavaScript, along with exercises to practice these concepts.
