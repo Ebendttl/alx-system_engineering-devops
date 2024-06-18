@@ -1,4 +1,5 @@
-#!/bin/bash
+#!/usr/bin/env bash
+# Create an SSH key pair
 
 # Set the filename for the private key
 private_key_file="school"
@@ -17,3 +18,4 @@ echo "RSA key pair generated with the following properties:"
 echo "Private key file: $private_key_file"
 echo "Number of bits: $bits"
 echo "Passphrase: $passphrase"
+
