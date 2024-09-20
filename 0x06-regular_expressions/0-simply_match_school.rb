@@ -1,15 +1,5 @@
 #!/usr/bin/env ruby
+# A regular expression that matches a given pattern
+# This script matches `School` from a string
 
-# Get the argument passed to the script
-input = ARGV[0]
-
-# Define the regular expression pattern to match "School"
-pattern = /School/
-
-# Check if the input matches the pattern
-if input =~ pattern
-  puts input
-else
-  puts ""
-end
-
+puts ARGV[0].scan(/School/).join
